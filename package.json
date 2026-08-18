@@ -4,17 +4,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "description": "",
   "dependencies": {
     "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliakim-ads/express-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliakim-ads/express-db/issues"
+  },
+  "homepage": "https://github.com/eliakim-ads/express-db#readme",
+  "description": ""
 }
