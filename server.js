@@ -1,9 +1,24 @@
+import app from './app.js'
+import pool from './database/pool.js'
 
-import app from './src/app.js'; // Import the Express application from the app.js file
+const port = Number(process.env.PORT) || 3000
 
-const port = 3000; // Define the port number for the server to listen on
+// Função responsável por iniciar o servidor.
+async function startServer() {
+  try {
+    await pool.query('SELECT 1') // Executa uma consulta simples para verificar se a aplicação consegue se conectar ao MySQL.
 
-// Start the server
-app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
-});
+    console.log('Conexão com o MySQL estabelecida')
+
+    app.listen(port, () => { // Inicia o servidor HTTP somente depois que a conexão com o banco de dados foi confirmada.
+      console.log(`Servidor rodando em http://localhost:${port}`)
+    })
+  } catch (error) {
+    console.error('Não foi possível conectar ao banco de dados')
+    console.error(error.message)
+
+    process.exit(1)
+  }
+}
+
+startServer()
