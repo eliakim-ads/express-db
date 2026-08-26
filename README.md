@@ -79,7 +79,7 @@ Antes de executar o projeto, verifique se você possui instalado:
 ## 6.1 Clone o repositório
 
 ```bash
-git clone <https://github.com/lara-peddinghausen/express_bd.git>
+git clone <https://github.com/eliakim-ads/express-db.git>
 ```
 
 ## 6.2 Acesse a pasta do projeto
