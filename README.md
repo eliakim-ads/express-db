@@ -38,6 +38,12 @@ api-rest/
 ├── src/
 │   ├── database/
 │   │   └── pool.js
+│   ├── controllers/
+│   │   └── AlunosController.js
+│   ├── repositories/
+│   │   └── AlunosRepository.js
+│   ├── routes/
+│   │   └── alunos.route.js
 │   ├── app.js
 │   └── server.js
 │
