@@ -13,7 +13,7 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1",
-    "mysql2": "^3.23.4"
+    "mysql2": "^3.24.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
@@ -25,6 +25,5 @@
   "bugs": {
     "url": "https://github.com/eliakim-ads/express-db/issues"
   },
-  "homepage": "https://github.com/eliakim-ads/express-db#readme",
-  "description": ""
+  "homepage": "https://github.com/eliakim-ads/express-db#readme"
 }
