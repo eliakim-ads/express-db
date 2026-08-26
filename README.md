@@ -102,7 +102,7 @@ Configure os valores de ```DB_USER``` e ```DB_PASSWORD```.
 
 ## Banco de dados com Docker
 
-Para subir o MySQL localmente:
+Para subir o MySQL localmente: (iniciar nosso banco)
 
 ```bash
 docker compose up -d

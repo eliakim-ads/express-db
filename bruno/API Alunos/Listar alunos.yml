@@ -4,11 +4,11 @@ info:
 
 http:
   method: GET
-  url: http://localhost:3000/alunos
+  url: http://localhost:3000/alunos/:id
   auth: inherit
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
-  maxRedirects: 5
+  maxRedirects: 5​
