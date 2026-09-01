@@ -1,4 +1,4 @@
-import express from 'express'
+import express from 'express' 
 
 import alunosRoutes from './routes/alunos.routes.js'
 
